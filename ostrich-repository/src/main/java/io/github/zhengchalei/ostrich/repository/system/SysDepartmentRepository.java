@@ -1,4 +1,7 @@
 package io.github.zhengchalei.ostrich.repository.system;
 
-public interface SysDepartmentRepository<, ID> extends io.github.zhengchalei.ostrich.common.repository.OstrichRepository<io.github.zhengchalei.ostrich.entity.system.SysDepartment, ID> {
+import io.github.zhengchalei.ostrich.entity.system.SysDepartment;
+import io.github.zhengchalei.ostrich.repository.OstrichRepository;
+
+public interface SysDepartmentRepository extends OstrichRepository<SysDepartment, Long> {
 }

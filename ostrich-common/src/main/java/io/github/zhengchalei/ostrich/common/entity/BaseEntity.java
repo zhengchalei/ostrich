@@ -1,4 +1,4 @@
-package entity;
+package io.github.zhengchalei.ostrich.common.entity;
 
 
 import lombok.Data;

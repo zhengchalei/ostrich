@@ -1,4 +1,4 @@
-package io.github.zhengchalei.ostrich.common.repository;
+package io.github.zhengchalei.ostrich.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
@@ -14,7 +14,7 @@ import java.io.Serializable;
  * @since 1.0.0
  */
 @NoRepositoryBean
-public interface  OstrichRepository<T, ID extends Serializable> extends
+public interface OstrichRepository<T, ID extends Serializable> extends
         JpaRepository<T, ID>,
         JpaSpecificationExecutor<T>,
         QuerydslPredicateExecutor<T> {
